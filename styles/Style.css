@@ -18,8 +18,8 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     overflow-x: hidden;
-    overflow-y: hidden;
-    
+    /* overflow-y: ;
+ */    
 }
 a{/*voltar*/
     color: inherit;
@@ -52,14 +52,17 @@ header #navbartopo ul {
 }
 header #navbartopo ul li{
     display: inline;
+
      
 }
 header #navbartopo ul li a{
     padding: 30px ;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: medium;
     text-transform: uppercase;
     text-align: center;
+    font-size: .8rem;
+
     /*width: 3em;*/
 }
 header #navbartopo ul li a:hover{
@@ -156,6 +159,85 @@ font-weight: 400;
     font-size: 1rem;
     font-weight: 500;
 }
-.msg{
+.msg img{
     text-align: left;
+    border-radius: 10%;
+}
+
+article{
+    font-size: 1rem;
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.servico h1{
+    display: flex;
+    width: 50dvw;
+    height: 50dvh;
+    font-size: 3rem;
+    align-items: end;
+    text-align: left;
+}
+.bloco-servico{
+    height: 50dvh;
+    width: 50dvw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.bloco-1 {
+    color: white;
+    font-size: 5rem;
+}
+.bloco-2, .bloco-3, .bloco-1{
+    color: white;
+    font-size: 3rem;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #0505B8 ;
+    text-align: center;
+}
+
+
+.bloco-2 {
+    align-items: center;
+}
+
+.bloco-3 {
+    color: white;
+    font-size: 5rem;
+}
+#cases{
+    align-items: center;
+    height: 100dvh;
+    margin-top: -20%;
+}
+#cases img{
+    height: 290px;
+    margin-top: 10%;
+    border-radius: 10px;
+}   
+.identidade{
+    display: flex;
+    height: 100dvh;
+    width: 98dvw;
+}
+
+.nome-aurora-identidade {
+    font-size: 2rem;
+}
+.nome-aurora-identidade h3{
+    color: #0505B8;
+
+}
+#identidade-conexao,#identidade-servico, #identidade-como, #identidade-dados {
+    height: 7rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 15px;
 }
